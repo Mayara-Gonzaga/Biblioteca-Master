@@ -55,7 +55,6 @@ cd library-backend
 ### **3️⃣ Instale as dependências**  
 ```bash
 composer install
-npm install
 ```
 
 ### **4️⃣ Configure as variáveis de ambiente**  
