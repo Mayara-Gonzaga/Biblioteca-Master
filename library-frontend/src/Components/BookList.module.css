@@ -1,0 +1,137 @@
+/* BookList.module.css */
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fffff0; 
+}
+
+
+.app-container {
+  min-height: 100vh;
+  padding: 20px; 
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff8dc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.lista {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.lista th,
+.lista td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #fffff0;
+}
+
+.lista th {
+  background-color: #30706f;
+  color: white;
+}
+
+.lista tr:hover {
+  background-color: #dfdfb3;
+}
+
+.botao {
+  background-color: #5c3e17;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.botao:hover {
+  background-color: #2980b9;
+}
+
+.botao-deletar {
+  background-color: #a15757;
+}
+
+.botao-deletar:hover {
+  background-color: #c0392b;
+}
+
+.paginacao {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px; 
+}
+
+.paginacao button {
+  background-color: #a15757;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px; /* Espaçamento entre os botões */
+}
+
+.paginacao button:disabled {
+  background-color: #5c3e17;
+  cursor: not-allowed;
+}
+
+.paginacao span {
+  margin: 0 10px; /* Espaçamento entre o texto e os botões */
+  line-height: 32px;
+}
+
+.searchContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #4CAF50; /* Cor do borda ao focar no campo */
+}
+
+.searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a15757;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #5c3e17;
+}

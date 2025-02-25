@@ -1,0 +1,81 @@
+/* BookForm.module.css */
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #faf2d0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario div {
+  margin-bottom: 15px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #30706f;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formulario textarea {
+  resize: vertical;
+  min-height: 10px;
+}
+
+.botao {
+  background-color: #5c3e17;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.botao:hover {
+  background-color: #a15757;
+}
+
+.botao-cancelar {
+  background-color: #a15757;
+}
+
+.botao-cancelar:hover {
+  background-color: #c0392b;
+}
+
+.searchButton {
+  /* Adicione seu estilo aqui */
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #45a049;
+}
+

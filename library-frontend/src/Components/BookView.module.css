@@ -1,0 +1,34 @@
+/* BookView.css */
+.book-view-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #471919;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(168, 44, 44, 0.1);
+}
+
+.book-view-container h2 {
+  color: #2e77c0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book-view-container p {
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.book-view-container button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.book-view-container button:hover {
+  background-color: #b4be22;
+}
